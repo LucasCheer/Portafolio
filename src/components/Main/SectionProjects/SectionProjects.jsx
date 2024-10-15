@@ -1,4 +1,5 @@
 import './SectionProjects.css';
+import CardProject from './CardProject/CardProject.jsx';
 
 function SectionProyects() {
     return (
@@ -6,81 +7,10 @@ function SectionProyects() {
             <h2 id="title-project" class="titles" >Proyectos<span class="point">.</span></h2>
             <p  id="subtitle-project" class="subtitle">Algunos de mis proyectos...</p>
             <div id="container-projects">
-                <article class="project-num">
-                    <figure class="photo-project">
-                        <a href="#">
-                        </a>
-                    </figure>
-
-                    <div class="info-project">
-                        <h2>Acortador de URL</h2>
-                        <div class="tablet-container">
-                            <div class="tablet">HTML</div>
-                            <div class="tablet">CSS</div>
-                        </div>
-                        <p class="descrip-project">Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
-                    </div>
-                    <div class="btn-container">
-                        <button class="btn btn-light btn-projects">Repositorio
-                        </button>
-                        <button class="btn btn-projects btn-dark">Demo</button>
-                    </div>
-                </article>
-                <article class="project-num">
-                    <figure class="photo-project">
-                        <a href="#"></a>
-                    </figure>
-                    <div class="info-project">
-                        <h2>Ladding Page</h2>
-                        <div class="tablet-container">
-                            <div class="tablet">HTML</div>
-                            <div class="tablet">CSS</div>
-                        </div>
-                        <p class="descrip-project">Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
-                    </div>
-                    <div class="btn-container">
-                        <button class="btn btn-projects btn-light">Repositorio</button>
-                        <button class="btn btn-projects btn-dark">Demo</button>
-                    </div>
-                </article>
-                <article class="project-num">
-                    <figure class="photo-project">
-                        <a href="#">
-                        </a>
-                    </figure>
-                    <div class="info-project">
-                        <h2>Advice Generator App</h2>
-                        <div class="tablet-container">
-                            <div class="tablet">HTML</div>
-                            <div class="tablet">CSS</div>
-                        </div>
-                        <p class="descrip-project">Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
-                    </div>
-                    <div class="btn-container">
-                        <button class="btn btn-projects btn-light">Repositorio</button>        
-                        <button class="btn btn-projects btn-dark">Demo</button>
-                    </div>
-                </article>
-                <article class="project-num">
-                    <figure class="photo-project">
-                        <a href="#">
-                        </a>
-                    </figure>
-                    <div class="info-project">
-                        <h2>Hein</h2>
-                        <div class="tablet-container">
-                            <div class="tablet">HTML</div>
-                            <div class="tablet">CSS</div>
-                            <div class="tablet">Sass</div>
-                            <div class="tablet">NodeJS</div>
-                        </div>
-                        <p class="descrip-project">Lorem ipsum dolor sit amet consectetur adipisicing elite.</p>
-                    </div>
-                    <div class="btn-container">
-                        <button class="btn btn-projects btn-light">Repositorio</button>
-                        <button class="btn btn-projects btn-dark">Demo</button>
-                    </div>
-                </article>
+                <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones."/>
+                <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones."/>
+                <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones."/>
+                <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones."/>
             </div>
             <h2 class="subtitle title-skills">Tecnologías</h2>
             <p class="about-me-text">Lenguajes, Frameworks y Herramientas con las que me siento comodo.</p>
