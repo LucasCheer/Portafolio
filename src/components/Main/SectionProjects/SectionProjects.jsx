@@ -7,10 +7,10 @@ function SectionProyects() {
             <h2 id="title-project" class="titles" >Proyectos<span class="point">.</span></h2>
             <p  id="subtitle-project" class="subtitle">Algunos de mis proyectos...</p>
             <div id="container-projects">
+                <CardProject title="Hein" description="Plataforma de gestion y seguimiento emocional"/>
                 <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones."/>
-                <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones."/>
-                <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones."/>
-                <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones."/>
+                <CardProject title="Ecommerce" description="Gestion de comercio electronico"/>
+                <CardProject title="TodoList" description="Lista de tareas"/>
             </div>
             <h2 class="subtitle title-skills">Tecnologías</h2>
             <p class="about-me-text">Lenguajes, Frameworks y Herramientas con las que me siento comodo.</p>
