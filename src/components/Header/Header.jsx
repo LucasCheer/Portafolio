@@ -1,4 +1,5 @@
 import './Header.css' 
+import foto from '../../assets/images/profile-photo.jpeg'
 
 function Header() {
     return (
@@ -37,6 +38,7 @@ function Header() {
                         </div>
                     </div>
                     <figure class="photo-container">
+                        <img src={foto} alt="Foto Perfil" width="200px" />
                     </figure>
                     <figure id="arrow-bottom">
                         <figcaption class="subtitle">Desliza</figcaption>
