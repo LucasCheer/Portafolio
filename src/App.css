@@ -9,7 +9,6 @@
     --tipograpy :"Noto Sans", system-ui;
 }
 /* ESTILOS GENERALES */
-
 *{
     margin: 0;
     padding: 0;
@@ -582,10 +581,6 @@ a{
             font-size: 1rem;
         }
 }
-
-/* M E D I A  Q U E R Y S*/
-
-
 /* A N I M A C I O N E S */
 
 @keyframes titilar{
@@ -601,8 +596,6 @@ a{
         transform: translateX(0);
     }
 }
-
-
 @keyframes change-color {
     0%{
         color: var(--colorCeleste);
@@ -611,7 +604,6 @@ a{
         color:#0077b6;  
     }
 }
-
 @keyframes animacionFlechita{
 
     0%{

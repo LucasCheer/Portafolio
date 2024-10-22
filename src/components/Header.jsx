@@ -21,7 +21,7 @@ function Header() {
                     <div className="hero-container">
                         <h1 id="msj-welcome">Hola, soy Lucas Chero</h1>
                         <p id="web-developer">Desarrollador <span> de Software</span></p>
-                        <p id="hero-subtitle" className="subtitle">Disfruto crear sitios y apps webs<img src={iconWorld}></img></p>  
+                        <p id="hero-subtitle" className="subtitle">Disfruto crear sitios y apps webs<img className='world-img' src={iconWorld}></img></p>  
                         <div className="btn-container">
                             <a href="https://linkedin.com/in/lucas-chero" target="_blank">
                                 <figcaption className="social-media">

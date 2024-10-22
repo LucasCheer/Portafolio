@@ -13,8 +13,8 @@ function CardProject({title, description}) {
             <div className="info-project">
                 <h2>{title}</h2>
                 <div className="tablet-container">
-                    <div className="tablet">HTML</div>
-                    <div className="tablet">CSS</div>
+                    <div className="tablet">Javascript</div>
+                    <div className="tablet">NodeJs</div>
                 </div>
                 <p className="descrip-project">{description}</p>
             </div>
