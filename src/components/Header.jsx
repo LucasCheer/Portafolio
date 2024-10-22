@@ -1,7 +1,7 @@
-import './Header.css' 
-import foto from '../../assets/images/profile-photo.jpeg';
-import iconWorld from '../../assets/images/world.svg';
-import arrowBottom from '../../assets/images/arrow-bottom.svg';
+import '../styles/Styles.css';
+import foto from '../assets/images/profile-photo.jpg';
+import iconWorld from '../assets/images/world.svg';
+import arrowBottom from '../assets/images/arrow-bottom.svg';
 
 function Header() {
     return (
@@ -19,9 +19,9 @@ function Header() {
                 </nav>
                 <div className="hero">
                     <div className="hero-container">
-                        <h1 id="msj-welcome">Hola, soy Lucas</h1>
-                        <p id="web-developer">Desarrollador <span>Full Stack</span></p>
-                        <p id="hero-subtitle" className="subtitle">Disfruto crear sitios y apps webs<img src={iconWorld}></img> </p>  
+                        <h1 id="msj-welcome">Hola, soy Lucas Chero</h1>
+                        <p id="web-developer">Desarrollador <span> de Software</span></p>
+                        <p id="hero-subtitle" className="subtitle">Disfruto crear sitios y apps webs<img src={iconWorld}></img></p>  
                         <div className="btn-container">
                             <a href="https://linkedin.com/in/lucas-chero" target="_blank">
                                 <figcaption className="social-media">

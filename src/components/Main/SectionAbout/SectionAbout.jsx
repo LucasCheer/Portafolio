@@ -1,4 +1,3 @@
-import './SectionAbout.css';
 import imgAbout from '../../../assets/images/img-about.svg';
 
 function SectionAbout() {
