@@ -20,12 +20,12 @@ function SectionProyects() {
             <h2 id="title-project" class="titles" >Proyectos<span class="point">.</span></h2>
             <p  id="subtitle-project" class="subtitle">Algunos de mis proyectos...</p>
             <div id="container-projects">
-                <CardProject title="Hein" description="Plataforma de gestion y seguimiento emocional" techs={['HTML', 'CSS', 'JavaScript', 'Sass']}/>
+                <CardProject title="Hein" description="Plataforma de gestion y seguimiento emocional" techs={['HTML', 'Sass', 'JavaScript', 'Node.js']}/>
 
                 <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones." techs={['HTML', 'CSS', 'JavaScript']}/>
 
                 <CardProject title="Ecommerce" description="Gestion de comercio electronico" techs={['HTML', 'CSS', 'JavaScript']}/>
-                
+
                 <CardProject title="TodoList" description="Lista de tareas" techs={['HTML', 'CSS', 'JavaScript', 'Sass']}/>
             </div>
             <h2 class="subtitle title-skills">Tecnologías</h2>

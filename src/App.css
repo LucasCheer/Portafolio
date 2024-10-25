@@ -375,6 +375,7 @@ a{
                                             height: 100%;
                                             object-fit: cover;
                                             object-position: center;
+                                            transition: all 0.3s ease-in-out;
                                         }
                                 }
 
@@ -425,7 +426,13 @@ a{
                         }    
                 }
                 & .project-num:hover{
-                    scale: 1.02;
+                    cursor: pointer;
+                    overflow: hidden;
+                        & .photo-project{
+                            & img{
+                                transform: scale(1.1);
+                            }
+                        }
                 }
         }
 }
