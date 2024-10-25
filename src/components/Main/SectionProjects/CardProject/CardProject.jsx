@@ -1,8 +1,10 @@
+import Pill from './Pill/Pill.jsx';
 import imgProject from '../../../../assets/images/project-img.jpg';
 import iconGit from '../../../../assets/images/github-icon2.svg';
 import iconLink from '../../../../assets/images/link-icon.svg';
 
-function CardProject({title, description}) {
+
+function CardProject({title, description, techs = []}) {
 
     return (
         <article className="project-num">
@@ -13,8 +15,7 @@ function CardProject({title, description}) {
             <div className="info-project">
                 <h2>{title}</h2>
                 <div className="tablet-container">
-                    <div className="tablet">Javascript</div>
-                    <div className="tablet">NodeJs</div>
+                    {techs.map((tech) => <Pill text={tech} />)} 
                 </div>
                 <p className="descrip-project">{description}</p>
             </div>
