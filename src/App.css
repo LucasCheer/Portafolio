@@ -348,7 +348,7 @@ a{
                     font-size: 1.2rem;
                     font-family: var(--tipograpy);
                     color: rgb(159, 208, 250);
-                    border: 3px solid rgb(12, 82, 128);
+                    border: 3px solid rgb(1, 54, 88);
                     border-radius: 12px;
                     
                     display: flex;
@@ -397,8 +397,8 @@ a{
                                         & .tablet{
                                             background-color: #00153b;
                                             border-radius:30px;
-                                            border: 2px solid var(--colorCeleste);
-                                            padding: .2rem .5rem;
+                                            border: 2px solid #015768;
+                                            padding: .2rem .6rem;
                                             font-size: .8rem;
                                         }
                                         & .tablet:hover{
@@ -412,7 +412,6 @@ a{
                                     font-size: 1rem;
                                     padding: .5rem 0;
                                 }
-
                         }
                         & .btn-container{
                             padding: 0 0 1.5rem 1.5rem;
@@ -422,6 +421,10 @@ a{
                                     margin: 0;
                                     margin-right: .5rem;
                                     padding: .4rem .6rem;
+                                        & #icon-git{
+                                            color: #00b4d8;
+                                            background-color: transparent;
+                                        }
                                 }
                         }    
                 }

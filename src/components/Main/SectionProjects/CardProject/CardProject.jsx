@@ -20,8 +20,8 @@ function CardProject({title, description, techs = []}) {
                 <p className="descrip-project">{description}</p>
             </div>
             <div className="btn-container">
-                <button className="btn btn-light btn-projects"><img src={iconGit} alt="Icono Git"/>Repositorio</button>
-                <button className="btn btn-projects btn-dark"><img src={iconLink} alt="Icono Link" />Demo</button>
+                <button className="btn btn-light btn-projects"><img id='icon-git' className='icon' src={iconGit} alt="Icono Git"/>Repositorio</button>
+                <button className="btn btn-projects btn-dark"><img className='icon' src={iconLink} alt="Icono Link" />Demo</button>
             </div>
         </article>
     )
