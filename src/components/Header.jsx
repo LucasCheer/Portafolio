@@ -21,7 +21,7 @@ function Header() {
                     <div className="hero-container">
                         <h1 id="msj-welcome">Hola, soy Lucas Chero</h1>
                         <p id="web-developer">Desarrollador <span> de Software</span></p>
-                        <p id="hero-subtitle" className="subtitle">Disfruto crear sitios y apps webs<img className='world-img' src={iconWorld}></img></p>  
+                        <p id="hero-subtitle" className="subtitle">Disfruto crear sitios y Aplicaciones Web<img className='world-img' src={iconWorld}></img></p>  
                         <div className="btn-container">
                             <a href="https://linkedin.com/in/lucas-chero" target="_blank">
                                 <figcaption className="social-media">
@@ -43,8 +43,11 @@ function Header() {
                         <img src={foto} alt="Foto Perfil" width="190px" />
                     </figure>
                     <figure id="arrow-bottom">
+                        <a href="#about-me-section" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
                         <img src={arrowBottom} alt="Flecha abajo"/>
                         <figcaption className="subtitle">Desliza</figcaption>
+                        </a>
+
                     </figure>
                 </div>
             </header>
