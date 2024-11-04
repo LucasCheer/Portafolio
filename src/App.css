@@ -493,7 +493,6 @@ a{
                             margin: auto;
                             width: 80%;
                             height: 80%;
-                            /* filter: opacity(25%); */
                             color: var(--colorCeleste);
                                 & img{
                                     width: 50px;
@@ -606,11 +605,9 @@ a{
     0%{
         transform: translateX(0);
     }
-
     50%{
         transform: translateX(12px);
     }
-
     100%{
         transform: translateX(0);
     }
@@ -624,11 +621,9 @@ a{
     }
 }
 @keyframes animacionFlechita{
-
     0%{
         filter: opacity(90%);
     }
-
     100%{
         bottom: 50px;
         filter: opacity(100%);
