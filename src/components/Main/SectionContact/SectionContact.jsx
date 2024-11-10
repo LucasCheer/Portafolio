@@ -15,7 +15,7 @@ function SectionContact() {
                 <button type="submit" className="btn btn-dark btn-contact">Enviar</button>
             </form>
         </section>
-    ); // Cierre del return
-} // Cierre de la función
+    );
+} 
 
 export default SectionContact;

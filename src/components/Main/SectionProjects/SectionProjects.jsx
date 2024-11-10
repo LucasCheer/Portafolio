@@ -13,6 +13,7 @@ import nestJS from '../../../assets/images/techs/nestjs-icon.svg';
 import iconMysql from '../../../assets/images/techs/mysql-icon3.svg';
 import iconMongodb from '../../../assets/images/techs/mongodb-icon3.svg';
 import csharp from '../../../assets/images/techs/c-sharp-icon.svg';
+import {hein, pokedex} from '../../../assets/images/projects/index.js';
 
 function SectionProyects() {
     return (
@@ -20,13 +21,22 @@ function SectionProyects() {
             <h2 id="title-project" className="titles" >Proyectos<span className="point">.</span></h2>
             <p  id="subtitle-project" className="subtitle">Algunos de mis proyectos...</p>
             <div id="container-projects">
-                <CardProject title="Hein" description="Plataforma de gestion y seguimiento emocional" techs={['Javascript', 'Sass', 'Node.js', 'Express']}/>
-
-                <CardProject title="Pokedex" description="Aplicación web para visualizar información sobre pokemones." techs={['JavaScript', 'React']}/>
-
-                <CardProject title="Ecommerce" description="Gestion de comercio electronico" techs={['HTML', 'CSS', 'JavaScript']}/>
-
-                <CardProject title="TodoList" description="Lista de tareas" techs={['HTML', 'CSS', 'JavaScript', 'Sass']}/>
+                <CardProject
+                    title="Hein" 
+                    description="Plataforma de gestion y seguimiento emocional" 
+                    techs={['Javascript', 'Sass', 'Node.js', 'Express']}
+                    imgProject={hein}
+                    link={"https://hein-emociones.netlify.app"}
+                    linkRepo={"https://github.com/LucasCheer/Hein"}
+                />
+                <CardProject
+                    title="Pokedex App" 
+                    description="Pokedex informativa de Pokemons de distintos tipos" 
+                    techs={['Javascript', 'React',]}
+                    imgProject={pokedex}
+                    link={"no disponible"}
+                    linkRepo={"https://github.com/LucasCheer/Pokedex-React"}
+                />
             </div>
             <h2 className="subtitle title-skills">Tecnologías</h2>
             <p className="about-me-text">Lenguajes, Frameworks y Herramientas con las que me siento comodo.</p>

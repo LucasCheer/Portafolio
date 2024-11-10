@@ -1,15 +1,15 @@
 import Pill from './Pill/Pill.jsx';
-import imgProject from '../../../../assets/images/project-img.jpg';
 import iconGit from '../../../../assets/images/github-icon2.svg';
 import iconLink from '../../../../assets/images/link-icon.svg';
 
 
-function CardProject({title, description, techs = []}) {
+function CardProject({title, description, techs = [], imgProject, link, linkRepo}) {
 
     return (
         <article className="project-num">
             <figure className="photo-project">
-                <a href="#"> <img src={imgProject} alt="Imagen del proyecto" /></a>
+                <a href="#">
+                    <img src={imgProject} alt="Imagen del proyecto" /></a>
             </figure>
 
             <div className="info-project">
@@ -19,9 +19,14 @@ function CardProject({title, description, techs = []}) {
                 </div>
                 <p className="descrip-project">{description}</p>
             </div>
+
             <div className="btn-container">
-                <button className="btn btn-light btn-projects"><img id='icon-git' className='icon' src={iconGit} alt="Icono Git"/>Repositorio</button>
-                <button className="btn btn-projects btn-dark"><img className='icon' src={iconLink} alt="Icono Link" />Demo</button>
+                    <a className='btn btn-projects btn-dark' href={linkRepo} target='_blank'>
+                        <img id='icon-git' className='icon' src={iconGit} alt="Icono Git"/>Repositorio
+                    </a>
+                    <a className='btn btn-projects btn-dark' href={link} target='_blank'>
+                        <img className='icon' src={iconLink} alt="Icono Link"/>Demo
+                    </a>
             </div>
         </article>
     )
