@@ -2,24 +2,24 @@ import imgAbout from '../../../assets/images/img-about.svg';
 
 function SectionAbout() {
     return (
-        <section id="about-me-section" class="section">
-            <figure class="photo-about-me">
+        <section id="about-me-section" className="section">
+            <figure className="photo-about-me">
             <img src={imgAbout} alt="Programador" />  
             </figure>
-            <div class="container-about-me">
-                <h2 class="about-me-title">Sobre mí<span class="point">.</span></h2>
+            <div className="container-about-me">
+                <h2 className="about-me-title">Sobre mí<span className="point">.</span></h2>
                 
-                <p class="about-me-text">
+                <p className="about-me-text">
                     ¡Hola! 😊 <br/>
-                    Mi nombre es <span class="resaltar">Lucas Chero</span> y soy un apasionado <span class="resaltar">Desarrollador Full-Stack</span>. Actualmente, estoy cursando la carrera de Sistemas de información en la <span class="resaltar">Universidad de Buenos Aires</span>, donde he adquirido una sólida base de conocimientos en desarrollo de software y tecnologías de la información.
+                    Mi nombre es <span className="resaltar">Lucas Chero</span> y soy un apasionado <span className="resaltar">Desarrollador Full-Stack</span>. Actualmente, estoy cursando la carrera de Sistemas de información en la <span className="resaltar">Universidad de Buenos Aires</span>, donde he adquirido una sólida base de conocimientos en desarrollo de software y tecnologías de la información.
                 </p>
                 <br/>
-                <p class="about-me-text">
-                    Mi objetivo es escribir código que sea seguro, escalable y limpio. Me considero una persona analítica, que siempre busca mejorar y <span class="resaltar">aprender nuevas tecnologías</span>. Disfruto colaborando en equipo, soy responsable, organizado y siempre estoy dispuesto a asumir nuevos retos.
+                <p className="about-me-text">
+                    Mi objetivo es escribir código que sea seguro, escalable y limpio. Me considero una persona analítica, que siempre busca mejorar y <span className="resaltar">aprender nuevas tecnologías</span>. Disfruto colaborando en equipo, soy responsable, organizado y siempre estoy dispuesto a asumir nuevos retos.
                 </p>
                 <br/>
-                <p class="about-me-text">
-                    Si te gustaría conocer más sobre mí o discutir posibles colaboraciones, no dudes en ponerte en contacto. <span class="resaltar">¡Será un placer conectar contigo!</span>
+                <p className="about-me-text">
+                    Si te gustaría conocer más sobre mí o discutir posibles colaboraciones, no dudes en ponerte en contacto. <span className="resaltar">¡Será un placer conectar contigo!</span>
                 </p>
             </div>
         </section>
