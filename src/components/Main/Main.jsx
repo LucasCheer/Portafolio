@@ -1,5 +1,5 @@
-import SectionAbout from './SectionAbout/SectionAbout.jsx'
-import SectionContact from './SectionContact/SectionContact.jsx'
+import SectionAbout from '../../Sections/SectionAbout.jsx'
+import SectionContact from '../../Sections/SectionContact.jsx'
 import SectionProjects from './SectionProjects/SectionProjects.jsx'
 
 
