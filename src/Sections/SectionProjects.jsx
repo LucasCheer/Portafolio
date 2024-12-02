@@ -1,4 +1,19 @@
-import {Angular, Bootstrap, Css, Express, Figma, Html, Js, Mongodb, Mysql, Node, React, Sass, Nest, Csharp} from '../assets/images/techs/index.js';
+import CardProject from '../components/CardProject.jsx';
+import iconHtml from '../assets/images/techs/html-icon.svg';
+import iconCss from '../assets/images/techs/css-icon.svg';
+import iconJs from '../assets/images/techs/js-icon.svg';
+import iconSass from '../assets/images/techs/sass-icon.svg';
+import iconBootstrap from '../assets/images/techs/bootstrap-icon.svg';
+import iconFigma from '../assets/images/techs/figma-icon.svg';
+import iconReact from '../assets/images/techs/react-icon.svg';
+import iconAngular from '../assets/images/techs/angular-icon.svg';
+import iconNode from '../assets/images/techs/nodejs-icon.svg';
+import iconExpress from '../assets/images/techs/express-icon.svg';
+import nestJS from '../assets/images/techs/nestjs-icon.svg';
+import iconMysql from '../assets/images/techs/mysql-icon3.svg';
+import iconMongodb from '../assets/images/techs/mongodb-icon3.svg';
+import csharp from '../assets/images/techs/c-sharp-icon.svg';
+import {hein, pokedex} from '../assets/images/projects/index.js';
 
 function SectionProyects() {
     return (
@@ -30,35 +45,35 @@ function SectionProyects() {
                     <h4 className="skill-type">Frontend</h4>
                     <div className="skill-grid">
                         <article className="item-skill">
-                            <img src={Html} alt="Icono HTML" />
+                            <img src={iconHtml} alt="Icono HTML" />
                             <figcaption>HTML</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Css} alt="Icono CSS" />
+                            <img src={iconCss} alt="Icono CSS" />
                             <figcaption>CSS</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Js} alt="Icono JavaScript" />
+                            <img src={iconJs} alt="Icono JavaScript" />
                             <figcaption>JavaScript</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Sass} alt="Icono Sass" />
+                            <img src={iconSass} alt="Icono Sass" />
                             <figcaption>Sass</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Bootstrap} alt="Icono Bootstrap" />
+                            <img src={iconBootstrap} alt="Icono Bootstrap" />
                             <figcaption>Bootstrap</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Figma} alt="Icono Figma" />
+                            <img src={iconFigma} alt="Icono Figma" />
                             <figcaption>Figma</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={React} alt="Icono React" />
+                            <img src={iconReact} alt="Icono React" />
                             <figcaption>ReactJS</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Angular} alt="Icono Angular" />
+                            <img src={iconAngular} alt="Icono Angular" />
                             <figcaption>Angular</figcaption>
                         </article>  
                         
@@ -68,27 +83,27 @@ function SectionProyects() {
                     <h4 className="skill-type">Backend</h4>
                     <div className="skill-grid">
                         <article className="item-skill">
-                            <img src={Node} alt="Icono NodeJS" />
+                            <img src={iconNode} alt="Icono NodeJS" />
                             <figcaption>NodeJS</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Express} alt="Icono Express" />
+                            <img src={iconExpress} alt="Icono Express" />
                             <figcaption>Express</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Nest} alt="Icono NestJS" />
+                            <img src={nestJS} alt="Icono NestJS" />
                             <figcaption>NestJS</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Csharp} alt="Icono C#" />
+                            <img src={csharp} alt="Icono C#" />
                             <figcaption>C#</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Mysql} alt="Icono MySQL" />
+                            <img src={iconMysql} alt="Icono MySQL" />
                             <figcaption>MySQL</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={Mongodb} alt="Icono MongoDB" />
+                            <img src={iconMongodb} alt="Icono MongoDB" />
                             <figcaption>MongoDB</figcaption>
                         </article>
                     </div>
