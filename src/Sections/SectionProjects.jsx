@@ -91,10 +91,6 @@ function SectionProyects() {
                             <figcaption>Express</figcaption>
                         </article>
                         <article className="item-skill">
-                            <img src={nestJS} alt="Icono NestJS" />
-                            <figcaption>NestJS</figcaption>
-                        </article>
-                        <article className="item-skill">
                             <img src={csharp} alt="Icono C#" />
                             <figcaption>C#</figcaption>
                         </article>

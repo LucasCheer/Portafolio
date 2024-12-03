@@ -15,7 +15,7 @@ function SectionAbout() {
                 </p>
                 <br/>
                 <p className="about-me-text">
-                    Mi objetivo es escribir código que sea seguro, escalable y limpio. Me considero una persona analítica, que siempre busca mejorar y <span className="resaltar">aprender nuevas tecnologías</span>. Disfruto colaborando en equipo, soy responsable, organizado y siempre estoy dispuesto a asumir nuevos retos.
+                    Mi objetivo es escribir código que sea seguro, escalable y limpio. Me considero una persona analítica, que siempre busca mejorar y <span className="resaltar">aprender nuevas tecnologías</span>.
                 </p>
                 <br/>
                 <p className="about-me-text">

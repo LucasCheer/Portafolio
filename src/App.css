@@ -3,9 +3,9 @@
 :root{
     --colorBackgroundNavbar: rgba(1, 13, 29, 0.626);
     --colorBackground: #0a1128;
-    --color-bg-light: #091c41;
     --colorCeleste:#00b4d8;
     --colorLetras: white;
+    --color-bg-light: #091c41;
     --tipograpy :"Noto Sans", system-ui;
 }
 /* ESTILOS GENERALES */
@@ -15,8 +15,8 @@
     box-sizing: border-box;
 }
 html{
-    scroll-behavior: smooth; /*Animacion del scroll*/
-    scroll-padding-top: 60px; /* Ajusta este valor según la altura de tu barra de navegación */
+    scroll-behavior: smooth;
+    scroll-padding-top: 60px; 
 }
 body{
     width: 100%;
