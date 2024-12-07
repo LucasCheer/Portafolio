@@ -1,3 +1,4 @@
+import '../styles/components/CardProject.css';
 import Pill from './Pill.jsx';
 import iconGit from '../assets/images/github-icon2.svg';
 import iconLink from '../assets/images/link-icon.svg';

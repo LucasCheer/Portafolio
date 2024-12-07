@@ -1,7 +1,7 @@
-import '../styles/Styles.css';
+import '../styles/components/Header.css';
 import foto from '../assets/images/profile-photo.jpg';
 import iconWorld from '../assets/images/world.svg';
-import ButtonCv from './ButtonCv';
+import ButtonCv from '../components/ButtonCv.jsx';
 import arrowBottom from '../assets/images/arrow-bottom.svg';
 import linkIcon from '../assets/images/github-icon2.svg';
 import linkLinkedin from '../assets/images/linkedin-icon.svg';  
@@ -27,6 +27,7 @@ function Header() {
                         <p id="hero-subtitle" className="subtitle">Disfruto crear sitios y Aplicaciones Web<img className='world-img' src={iconWorld}></img></p>  
                         <div className="btn-container">
                             <ButtonCv />
+                            <img src={linkLinkedin} alt="Linkedin" />
                         </div>
 
                     </div>

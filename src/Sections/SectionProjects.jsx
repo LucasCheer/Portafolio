@@ -1,3 +1,5 @@
+import '../styles/sections/SectionProjects.css';
+
 import CardProject from '../components/CardProject.jsx';
 import iconHtml from '../assets/images/techs/html-icon.svg';
 import iconCss from '../assets/images/techs/css-icon.svg';

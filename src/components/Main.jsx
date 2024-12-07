@@ -6,9 +6,11 @@ import SectionProjects from '../Sections/SectionProjects.jsx'
 function Main() {
     return (
         <>
+        <main>
             <SectionAbout />
             <SectionProjects />
             <SectionContact />
+        </main>
         </>
     )
 }
