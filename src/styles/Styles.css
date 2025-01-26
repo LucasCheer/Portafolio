@@ -24,12 +24,6 @@
     font-family: var(--tipograpy);
     font-size: 1.2rem;
 }
-.about-me-text{
-    color: var(--colorLetras);
-    font-family: var(--tipograpy);
-    width: 85ch;
-    line-height: 1.5;
-}
 .letter-type{
     font-family: "Noto Sans", sans-serif;
     color:  var(--colorLetras);
