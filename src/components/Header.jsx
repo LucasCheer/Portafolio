@@ -26,8 +26,9 @@ function Header() {
                         <p id="web-developer">Desarrollador <span> de Software</span></p>
                         <p id="hero-subtitle" className="subtitle">Disfruto crear sitios y Aplicaciones Web<img className='world-img' src={iconWorld}></img></p>  
                         <div className="btn-container">
-                            <ButtonCv />
-                            <img src={linkLinkedin} alt="Linkedin" />
+                           <img src="https://img.icons8.com/ios11/512/linkedin.png" alt="Linkedin Logo" />
+                           <img src="https://w7.pngwing.com/pngs/612/278/png-transparent-email-illustration-gmail-computer-icons-email-google-symbol-gmail-angle-rectangle-triangle-thumbnail.png" alt="Gmail Logo" />
+                           <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Github Logo" />
                         </div>
 
                     </div>

@@ -62,14 +62,14 @@
             text-align: left;
                 & #msj-welcome{
                     font-family: var(--tipograpy);
-                    font-size: 2.1rem;
+                    font-size: 2rem;
                     font-weight: 500;
                     color:  var(--colorLetras);
                     margin: 0;
                 }
                 & #web-developer{
                     font-family: var(--tipograpy);
-                    font-size: 2.6rem;
+                    font-size: 2.4rem;
                     font-weight: 800;
                     margin: 0;
                     color: var(--colorCeleste);
@@ -82,17 +82,30 @@
                 & #hero-subtitle{
                     display: flex;
                     align-items: center;
-                    color: #ffffff89;
+                    color: #ffffffd5;
+                    padding-bottom: 10px;
+                    font-size: 1.1rem;
                         & .world-img{
                             padding: 0 .4rem;
                         }
                 }
 
                 .btn-container{
-                    img{
+                    width: 150px;
+                    padding: 5px 0px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                      & img{
                         width: 30px;
                         height: 30px;
-                    }
+                        filter: invert(100%);
+                        transition: all 0.2s ease-in-out;
+                          &:hover{
+                            cursor: pointer;
+                            scale: 1.1;
+                          }
+                      }
                 }
         }
         & .photo-container{
