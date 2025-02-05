@@ -109,19 +109,12 @@
                 }
         }
         & .photo-container{
-            width: auto;
-            height: 190px;
-            border-radius: 10px;
+            width: 195px;
+            height: 195px;
+            border-radius: 50%;
             border: 3px solid rgba(12, 152, 187, 0.464);
-            box-shadow: 0 0 8px rgba(51, 214, 255, 0.711);
+            box-shadow: 0 0 25px rgba(51, 129, 255, 0.856);
             overflow: hidden;
-                & .img{
-                    width: 100%;
-                    height: 100%;
-                    background-position: center;
-                    background-size: cover;
-                }
-            
         }
         & #arrow-bottom{
             display: flex;

@@ -39,6 +39,14 @@ function SectionProyects() {
                     link={"no disponible"}
                     linkRepo={"https://github.com/LucasCheer/Pokedex-React"}
                 />
+                <CardProject
+                    title="Pokedex App" 
+                    description="Pokedex informativa de Pokemons de distintos tipos" 
+                    techs={['Javascript', 'React',]}
+                    imgProject={pokedex}
+                    link={"no disponible"}
+                    linkRepo={"https://github.com/LucasCheer/Pokedex-React"}
+                />
             </div>
             <h2 className="subtitle title-skills">Tecnologías</h2>
             <p className="about-me-text">Lenguajes, Frameworks y Herramientas con las que me siento comodo.</p>
