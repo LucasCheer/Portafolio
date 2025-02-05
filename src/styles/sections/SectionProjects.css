@@ -27,6 +27,12 @@
     text-align: left;
     font-size: 1.8rem;
 }
+.skills-text{
+    text-align: left;
+    font-size: 1.1rem;
+    color: #FFF;
+    font-family: var(--tipograpy);
+}
 #container-skills{
     max-width: 800px;
     display:flex;
@@ -36,10 +42,10 @@
         & .container-type{
             box-sizing: content-box;
             width: 370px;
-            background-color: #091c41;
-            border-radius: 10px;
+            background-color: #091c416e;
+            border-radius: 12px;
             padding: 1rem 0;
-            border: 3px solid rgb(12, 82, 128);
+            border: 2px solid rgb(12, 82, 128);
             
                 & .skill-type{
                     font-family: var(--tipograpy);

@@ -30,7 +30,7 @@ body{
     background-color:  rgb(2, 8, 24);
 }
 body::-webkit-scrollbar {
-    width: 6px;
+    width: 10px;
 }
 body::-webkit-scrollbar-track {
   background-color: transparent;
@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
 .subtitle{
     color: var(--colorLetras);
     font-family: var(--tipograpy);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 .letter-type{
     font-family: "Noto Sans", sans-serif;
@@ -123,13 +123,6 @@ strong{
 a{
     text-decoration: none;
 }
-
-
-
-
-
-
-
 
 /* A N I M A C I O N E S */
 

@@ -21,7 +21,6 @@ function SectionProyects() {
     return (
         <section id="projects-section" className="section">
             <h2 id="title-project" className="titles" >Proyectos<span className="point">.</span></h2>
-            <p  id="subtitle-project" className="subtitle">Algunos de mis proyectos...</p>
             <div id="container-projects">
                 <CardProject
                     title="Hein" 
@@ -41,7 +40,7 @@ function SectionProyects() {
                 />
             </div>
             <h2 className="subtitle title-skills">Tecnologías</h2>
-            <p className="about-me-text">Lenguajes, Frameworks y Herramientas con las que me siento comodo.</p>
+            <p className="skills-text">Lenguajes, Frameworks y Herramientas con las cuales he trabajado.</p>
             <div id="container-skills">
                 <div className="container-type front-end">
                     <h4 className="skill-type">Frontend</h4>
