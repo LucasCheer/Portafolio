@@ -1,10 +1,8 @@
 import '../styles/components/Header.css';
 import foto from '../assets/images/profile-photo.jpg';
 import iconWorld from '../assets/images/world.svg';
-import ButtonCv from '../components/ButtonCv.jsx';
 import arrowBottom from '../assets/images/arrow-bottom.svg';
-import linkIcon from '../assets/images/github-icon2.svg';
-import linkLinkedin from '../assets/images/linkedin-icon.svg';  
+
 
 function Header() {
     return (
@@ -36,7 +34,6 @@ function Header() {
                            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="Github Logo" />
                             </a>
                         </div>
-
                     </div>
                     <figure className="photo-container">
                         <img src={foto} alt="Foto Perfil" width="190px" />

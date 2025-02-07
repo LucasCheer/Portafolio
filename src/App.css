@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-main{
+html{
     width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px; 
 }
 
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Variables */
 
 :root{
     --colorBackgroundNavbar: rgba(1, 13, 29, 0.626);
@@ -15,19 +22,18 @@ main{
     --color-bg-light: #091c41;
     --tipograpy :"Noto Sans", system-ui;
 }
-/* ESTILOS GENERALES */
-*{
+
+/* Barra de desplazamiento */
+
+body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-html{
-    scroll-behavior: smooth;
-    scroll-padding-top: 60px; 
-}
-body{
     width: 100%;
     background-color:  rgb(2, 8, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 body::-webkit-scrollbar {
     width: 10px;
@@ -38,6 +44,19 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color:var(--colorCeleste);
 }
+
+body
+
+/* Reset de estilos */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+
 .point{
     color: var(--colorCeleste);
     font-size: 2.9rem;
@@ -112,10 +131,6 @@ body::-webkit-scrollbar-thumb {
     padding: .8rem 1.2rem;
     margin-top: .5rem;
 }
-.glass-effect{
-    background: #0000003f;
-    backdrop-filter: blur(0.3rem);
-}
 strong{
     color: white;
     font-weight: 400;
@@ -124,7 +139,7 @@ a{
     text-decoration: none;
 }
 
-/* A N I M A C I O N E S */
+/* Animaciones */
 
 @keyframes titilar{
     0%{
